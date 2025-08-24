@@ -31,9 +31,15 @@
 #define JP_BSLH  INT1         // (backslash)
 
 &mt {
-    flavor = "tap-preferred";
+    flavor = "balanced";
     quick-tap-ms = <200>;
     require-prior-idle-ms = <125>;
+};
+
+&lt {
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
+    flavor = "balanced";
 };
 
 / {
