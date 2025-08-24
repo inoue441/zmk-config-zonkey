@@ -199,8 +199,8 @@
             bindings = <
 &kp Q               &kp W           &kp E             &kp R             &kp T                                             &kp Y          &kp U            &kp I              &kp O            &kp P
 &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_GUI F    &kp G        &kp LS(LG(S))         &kp N          &kp H          &mt RIGHT_GUI J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL MINUS
-&kp LEFT_SHIFT      &kp Z           &kp X             &lt 6 C           &lt 5 V      &lt 4 B               &kp SEMICOLON  &kp M          &kp COMMA        &kp PERIOD         &kp DOT          &kp SLASH
-&kp LCTRL           &kp LEFT_WIN    &kp LEFT_ALT      &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                   &kp BACKSPACE  &kp ENTER                                                                     &kp INT_KANA
+&none               &kp Z           &kp X             &lt 6 C           &lt 5 V      &lt 4 B               &kp SEMICOLON  &kp M          &kp COMMA        &kp PERIOD         &kp SLASH        &none
+&kp LANG2           &kp LEFT_WIN    &kp LEFT_ALT      &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                   &kp BACKSPACE  &kp ENTER                                                                     &kp LANG1
             >;
 
             sensor-bindings =
