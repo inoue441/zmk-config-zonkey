@@ -173,6 +173,7 @@
             label = "TO_LAYER_0";
         };
 
+        // Mac に接続、デフォルトレイヤーを ON
         bt0: bt0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -181,6 +182,20 @@
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 0>,
                 <&macro_wait_time 500>;
+
+            label = "BT0";
+        };
+
+        // Windows に接続、Windows レイヤーを ON
+        bt1: bt1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&toggle_layer_off 1>,
+                <&macro_wait_time 200>,
+                <&bt BT_SEL 1>,
+                <&macro_wait_time 500>,
+                <&toggle_layer_on 1>;
 
             label = "BT0";
         };
