@@ -336,7 +336,7 @@
             >;
 
             sensor-bindings = <&scroll_up_down>;
-            label = "DO NOT MOVE THIS LAYER";
+            label = "Keep this at layer 5; referenced by scroll-layers = <5>";
         };
 
         MOUSE {
