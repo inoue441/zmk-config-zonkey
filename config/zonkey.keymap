@@ -248,8 +248,8 @@
             bindings = <
 &kp Q               &kp W           &kp E             &kp R           &kp T                               &kp Y            &kp U            &kp I              &kp O            &kp P
 &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_GUI F  &kp G        &none        &kp END   &kp H            &mt RIGHT_GUI J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL MINUS
-&none               &kp Z           &kp X             &kp C           &lt 5 V      &kp B        &kp HOME  &kp N            &kp M            &kp COMMA          &kp PERIOD       &kp SLASH
-&kp LANG2           &kp LEFT_WIN    &kp LEFT_ALT      &lt 2 ESC       &lt 3 SPACE  &lt 4 TAB              &lt 4 BACKSPACE  &lt 3 ENTER                                                                   &kp LANG1
+&none               &kp Z           &kp X             &kp C           &lt 4 V      &kp B        &kp HOME  &kp N            &kp M            &kp COMMA          &kp PERIOD       &kp SLASH
+&kp LANG2           &kp LEFT_WIN    &kp LEFT_ALT      &lt 2 ESC       &lt 3 SPACE  &lt 5 TAB              &lt 6 BACKSPACE  &lt 3 ENTER                                                                   &kp LANG1
             >;
 
             sensor-bindings =
@@ -261,8 +261,8 @@
             bindings = <
 &kp Q               &kp W           &kp E             &kp R                &kp T                            &kp Y            &kp U                &kp I              &kp O            &kp P
 &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt RIGHT_CONTROL F  &kp G        &none        &none  &kp H            &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt LEFT_CONTROL MINUS
-&kp Z               &kp X           &kp C             &kp V                &lt 5 B      &none        &none  &kp N            &kp M                &kp COMMA          &kp PERIOD       &kp SLASH
-&kp LANG2           &kp LEFT_WIN    &kp LEFT_ALT      &lt 2 ESC            &lt 3 SPACE  &lt 4 TAB           &lt 4 BACKSPACE  &lt 3 ENTER                                                                      &kp LANG1
+&kp Z               &kp X           &kp C             &kp V                &lt 4 B      &none        &none  &kp N            &kp M                &kp COMMA          &kp PERIOD       &kp SLASH
+&kp LANG2           &kp LEFT_WIN    &kp LEFT_ALT      &lt 2 ESC            &lt 3 SPACE  &lt 6 TAB           &lt 6 BACKSPACE  &lt 3 ENTER                                                                      &kp LANG1
             >;
 
             sensor-bindings =
@@ -304,24 +304,6 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_3 {
-            // -----------------------------------------------------------------------------------------
-            // | F1  | F2  | F3  | F4  | F5  |                     | F6  | F7 | F8  | F9 | F10 |
-            // | F11 | F12 |     |     |     |     |           |    |     |     |     |     |      |
-            // |SHIFT|     |     |     |     |     |           |     |     |     |     |     |      |
-            // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
-
-            bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                     &trans       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans    &trans  &kp COLON    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&trans  &trans  &trans  &trans  &trans   &trans    &trans  &kp PERCENT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-&trans  &trans  &trans  &trans  &trans   &trans            &trans       &trans                                                  &trans
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
-            label = "number";
-        };
-
         BT {
             // -----------------------------------------------------------------------------------------
             // | BT0 | BT1 | BT2 | BT3 | BT4 |                |  -  |  7  |  8  |  9  |  +  |
@@ -341,19 +323,20 @@
 
         SCROLL {
             // -----------------------------------------------------------------------------------------
-            // |      |     |     |     |     |                     |     |     |     |     |      |
-            // |      |     |     |     |     |     |           |    |     |     |     |     |      |
-            // |SHIFT|     |     |     |     |     |          |     |     |     |     |     |      |
-            // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|        | BS | ENT |                  | DEL |
+            // | F1  | F2  | F3  | F4  | F5  |                     | F6  | F7 | F8  | F9 | F10 |
+            // | F11 | F12 |     |     |     |     |           |    |     |     |     |     |      |
+            // |SHIFT|     |     |     |     |     |           |     |     |     |     |     |      |
+            // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&trans          &trans        &trans        &trans          &trans                                 &trans         &trans     &trans  &trans  &trans
-&trans          &trans        &trans        &trans          &trans     &trans              &trans  &trans         &trans     &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans        &trans        &trans          &trans     &trans              &trans  &trans         &trans     &trans  &trans  &trans
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp INT_HENKAN  &kp SPACE  &kp INT_MUHENKAN            &kp BACKSPACE  &kp ENTER                          &kp DEL
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                     &trans       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans    &trans  &kp COLON    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&trans  &trans  &trans  &trans  &trans   &trans    &trans  &kp PERCENT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
+&trans  &trans  &trans  &trans  &trans   &trans            &trans       &trans                                                  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
+            label = "number";
         };
 
         MOUSE {
