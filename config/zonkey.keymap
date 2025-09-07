@@ -275,8 +275,8 @@
 
             bindings = <
 &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LC(LS(NUMBER_3))  &kp LC(LS(NUMBER_4))  &kp LC(LS(NUMBER_5))                     &trans    &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(LS(TAB))  &kp LC(TAB)
-&trans                &trans                &trans                &trans                &trans                 &trans    &trans  &kp LEFT  &kp DOWN              &kp UP                 &kp RIGHT        &trans
-&trans                &trans                &trans                &kp LC(SEMICOLON)     &kp LC(LS(SEMICOLON))  &trans    &trans  &trans    &mkp LCLK             &mkp MCLK              &mkp RCLK        &trans
+&trans                &trans                &trans                &trans                &trans                 &trans    &trans  &kp LEFT  &kp DOWN              &kp UP                 &kp RIGHT        &kp HOME
+&trans                &trans                &trans                &kp LC(SEMICOLON)     &kp LC(LS(SEMICOLON))  &trans    &trans  &trans    &mkp LCLK             &mkp MCLK              &mkp RCLK        &kp END
 &trans                &trans                &trans                &trans                &trans                 &trans            &trans    &trans                                                                     &trans
             >;
 
