@@ -259,10 +259,10 @@
 
         WINDOWS {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans                          &trans
+&trans              &trans  &trans  &trans               &trans                    &trans  &trans               &trans  &trans  &trans
+&mt LEFT_CONTROL A  &trans  &trans  &mt RIGHT_CONTROL F  &trans  &trans    &trans  &trans  &mt RIGHT_CONTROL J  &trans  &trans  &mt LEFT_CONTROL MINUS
+&trans              &trans  &trans  &trans               &trans  &trans    &trans  &trans  &trans               &trans  &trans  &trans
+&trans              &trans  &trans  &trans               &trans  &trans            &trans  &trans                                                       &trans
             >;
         };
 
