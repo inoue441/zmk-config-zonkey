@@ -248,7 +248,7 @@
 
             bindings = <
 &kp Q                 &kp W           &kp E             &kp R           &kp T                               &kp Y            &kp U            &kp I              &kp O            &kp P
-&mt LEFT_CONTROL A    &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_GUI F  &kp G        &none        &kp END   &kp H            &mt RIGHT_GUI J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL MINUS
+&mt LEFT_CONTROL A    &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_GUI F  &kp G        &to 1        &kp END   &kp H            &mt RIGHT_GUI J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL MINUS
 &none                 &kp Z           &kp X             &kp C           &kp V        &lt 4 B      &kp HOME  &kp N            &kp M            &kp COMMA          &kp PERIOD       &kp SLASH
 &mt LEFT_SHIFT LANG2  &none           &none             &lt 2 ESC       &lt 3 SPACE  &lt 5 TAB              &lt 5 BACKSPACE  &lt 3 ENTER                                                                   &mt RIGHT_SHIFT LANG1
             >;
@@ -261,7 +261,7 @@
         WINDOWS {
             bindings = <
 &trans              &trans  &trans  &trans               &trans                    &trans  &trans               &trans  &trans  &trans
-&mt LEFT_CONTROL A  &trans  &trans  &mt RIGHT_CONTROL F  &trans  &trans    &trans  &trans  &mt RIGHT_CONTROL J  &trans  &trans  &mt LEFT_CONTROL MINUS
+&mt LEFT_CONTROL A  &trans  &trans  &mt RIGHT_CONTROL F  &trans  &to 0     &trans  &trans  &mt RIGHT_CONTROL J  &trans  &trans  &mt LEFT_CONTROL MINUS
 &trans              &trans  &trans  &trans               &trans  &trans    &trans  &trans  &trans               &trans  &trans  &trans
 &trans              &trans  &trans  &trans               &trans  &trans            &trans  &trans                                                       &trans
             >;
