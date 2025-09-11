@@ -292,10 +292,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp LS(N1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)   &kp LS(N5)                       &kp LS(NUMBER_6)  &kp LS(N7)         &kp LS(N8)            &kp LS(N9)            &kp LS(N0)
-&trans      &trans            &kp BACKSLASH     &kp EQUAL          &trans         &trans    &trans  &kp GRAVE         &kp SEMICOLON      &kp SINGLE_QUOTE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&trans      &trans            &trans            &kp LS(BACKSLASH)  &kp LS(EQUAL)  &trans    &trans  &kp LS(GRAVE)     &kp LS(SEMICOLON)  &kp LS(SINGLE_QUOTE)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)
-&trans      &trans            &trans            &trans             &trans         &trans            &trans            &trans                                                                                &trans
+&kp LS(N1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)   &kp LS(N5)                                &kp LS(NUMBER_6)  &kp LS(N7)         &kp LS(N8)            &kp LS(N9)            &kp LS(N0)
+&trans      &trans            &kp BACKSLASH     &kp EQUAL          &trans         &kp PRINTSCREEN    &trans  &kp GRAVE         &kp SEMICOLON      &kp SINGLE_QUOTE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&trans      &trans            &trans            &kp LS(BACKSLASH)  &kp LS(EQUAL)  &trans             &trans  &kp LS(GRAVE)     &kp LS(SEMICOLON)  &kp LS(SINGLE_QUOTE)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)
+&trans      &trans            &trans            &trans             &trans         &trans                     &trans            &trans                                                                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
